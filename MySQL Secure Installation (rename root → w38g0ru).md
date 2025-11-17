@@ -72,9 +72,10 @@ echo "Old root account removed."
 ### Installation
 
 ✔ How to Use
-'''bash
+
+```bash
 nano secure-mysql.sh
-'''
+```
 
 Paste → save → exit.
 
