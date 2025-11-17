@@ -56,3 +56,19 @@ echo "  echo \"<?php phpinfo(); ?>\" > /var/www/html/info.php"
 echo "Then open: http://YOUR_SERVER_IP/info.php"
 echo "------------------------------------------"
 '''
+Create script:
+
+'''bash
+nano install-lamp.sh
+'''
+Paste the script → save → exit.
+
+Make it executable:
+'''bash
+chmod +x install-lamp.sh
+'''
+
+Run:
+'''bash
+sudo ./install-lamp.sh
+'''
