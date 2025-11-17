@@ -55,6 +55,7 @@ echo "To test PHP, run:"
 echo "  echo \"<?php phpinfo(); ?>\" > /var/www/html/info.php"
 echo "Then open: http://YOUR_SERVER_IP/info.php"
 echo "------------------------------------------"
+
 '''
 
 ### Install Script
