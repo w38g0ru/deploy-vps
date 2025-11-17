@@ -76,14 +76,14 @@ echo "Old root account removed."
 ```bash
 nano secure-mysql.sh
 ```
-
 Paste → save → exit.
 
 Make executable:
 
+``` bash
 chmod +x secure-mysql.sh
-
-
+```
 Run:
-
+``` bash
 sudo ./secure-mysql.sh
+```
