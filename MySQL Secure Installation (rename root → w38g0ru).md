@@ -1,7 +1,6 @@
-# #!/usr/bin/env bash
-#
-# Secure MySQL installation
+
 # Creates new admin user 'w38g0ru' and disables old 'root'
+
 ``` bash
 set -e
 
@@ -70,3 +69,20 @@ echo "New admin user: ${NEW_USER}"
 echo "Password: ${NEW_PASS}"
 echo "Old root account removed."
 ```
+### Installation
+
+✔ How to Use
+'''bash
+nano secure-mysql.sh
+'''
+
+Paste → save → exit.
+
+Make executable:
+
+chmod +x secure-mysql.sh
+
+
+Run:
+
+sudo ./secure-mysql.sh
